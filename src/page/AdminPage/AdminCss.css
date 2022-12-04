@@ -1,0 +1,21 @@
+.imgCss {
+    width: 150px;
+}
+
+.adminPage {
+    padding: 20px 5%;
+    text-align: center;
+}
+
+.adminButton {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(118, 118, 254);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.adminButton:hover {
+    background-color: rgb(61, 61, 246);
+}

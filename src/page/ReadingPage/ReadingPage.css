@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/**----------------------------------------**/
+/**Breadcrumb**/
+.breadcrumb {
+    margin: 0 22%;
+    text-align: center;
+    padding: 50px 0 10px 0;
+    font-family: sans-serif;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    padding: 10px;
+}
+
+.breadcrumb a:hover {
+    color: rgb(59, 143, 245);
+}
+
+.breadcrumb a:active {
+    color: inherit;
+}
+
+.breadcrumb i {
+    color: rgb(184, 184, 184);
+    font-size: 15px;
+}
+
+/**----------------------------------------**/
+/**Title**/
+.title {
+    margin: 0 22%;
+    padding: 5px 7% 20px 7%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/**----------------------------------------**/
+/**Publish**/
+.publish-detail {
+    margin: 0 22%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.update-date {
+    color: rgb(170, 168, 168);
+}
+
+.publish-detail i {
+    color: rgb(170, 168, 168);
+    font-size: 7px;
+    padding: 0 10px;
+}
+
+/**----------------------------------------**/
+/**Intro**/
+.introduction {
+    margin: 0 22%;
+    font-weight: bold;
+    text-align: justify;
+    padding: 5px 7% 25px 7%;
+    font-size: 25px;
+}
+
+/**----------------------------------------**/
+/**Paragraph**/
+.paragraph {
+    margin: 0 22%;
+    text-align: justify;
+    padding: 5px 7% 25px 7%;
+    font-size: 25px;
+}
+
+.paragraph p {
+    padding: 10px 0;
+}
+
+/**----------------------------------------**/
+/**Image**/
+.image-info {
+    margin: 0 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-info p {
+    padding: 15px 0;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+/**-------------------------------------------**/
+/**Responsive**/
+@media only screen and (max-width: 1300px) {
+
+    /**Content**/
+    .breadcrumb,
+    .title,
+    .publish-detail,
+    .paragraph,
+    .introduction,
+    .image-info {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    /**Content**/
+    .breadcrumb,
+    .title,
+    .publish-detail,
+    .paragraph,
+    .introduction,
+    .image-info {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
