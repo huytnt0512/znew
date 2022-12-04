@@ -1,0 +1,2 @@
+# znew
+CRUD_NEWS
